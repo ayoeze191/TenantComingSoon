@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function Page() {
   return (
     <div>
       <div className="fixed w-full text-white z-10  font-Fira-Mono">
