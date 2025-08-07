@@ -35,7 +35,7 @@ export default function Home() {
         className="w-full bg-black waitlist"
         style={{ fontFamily: "akatab" }}
       >
-        <div className="w-[90%] text-white py-[107px] md:py-[200px] lg:py-[336px]">
+        <div className="w-[100%] text-white py-[107px] md:py-[200px] lg:py-[336px]">
           <p className="mx-auto md:text-center max-w-[927px] px-[20px] text-[40px] leading-[51.9px] waitlist">
             We&apos;re building something revolutionary at the intersection of
             Social Responsibility, Finance, Entertainment and AI
@@ -45,7 +45,7 @@ export default function Home() {
             experience the future when we launch
           </p>
 
-          <div className="mx-auto  w-full mt-[4.18rem] flex items-center gap-[1.125rem] max-w-[600px] px-[20px] flex-col md:flex-row">
+          <div className="mx-auto  w-full mt-[4.18rem] flex items-center gap-[1.125rem] max-w-[600px]  px-[20px] flex-col md:flex-row">
             <input
               placeholder="Email Address"
               type="email"
