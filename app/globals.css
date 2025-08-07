@@ -48,7 +48,7 @@ body {
 }
 
 .heroTitle{
-    font-family: var(--font-neue-montreal-bold);
+    font-family: 'neue montreal bold';
 }
 .Waitlist{
     font-family: "Akatab";

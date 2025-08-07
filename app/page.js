@@ -35,8 +35,8 @@ export default function Home() {
       <div className="w-full bg-black">
         <div className="w-[90%] text-white py-[107px] md:py-[200px] lg:py-[336px]">
           <p className="mx-auto md:text-center max-w-[927px] px-[20px] text-[40px] leading-[51.9px] Waitlist">
-            We're building something revolutionary at the intersection of Social
-            Responsibility, Finance, Entertainment and AI
+            We&apos;re building something revolutionary at the intersection of
+            Social Responsibility, Finance, Entertainment and AI
           </p>
           <p className="text-[#9A9A9A] px-[20px] text-[40px] leading-[51.9px]  md:text-center font-medium mx-auto max-w-[927px] mt-[24px]">
             Sign up now for exclusive early access and be the first to
