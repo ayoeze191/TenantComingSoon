@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div>
       <div className="fixed w-full text-white z-10  font-Fira-Mono">
-        <div className="flex text-[12px] flex-col md:flex-row font-[400] leading-[27px]  container  py-[40px] h-fit mx-auto  items-center justify-between ">
+        <div className="flex header text-[12px] flex-col md:flex-row font-[400] leading-[27px]  container  py-[40px] h-fit mx-auto  items-center justify-between ">
           <p>TEN ANTS</p>
           <p>A-CUBE</p>
           <p>CREATIVE PATH</p>
@@ -14,10 +14,11 @@ export default function Home() {
         <video
           src="/ComingSoonBackgroundVideo.webm"
           className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-          autoplay
+          autoPlay
           muted
           loop
-          playsinline
+          playsInline
+          type="video/webm"
         ></video>
         <div className="heroTitle text-[#FFFFFF] z-[999999999] text-center text-[85px] lg:text-[200px] xl:text-[278px]">
           REENATO
@@ -30,9 +31,12 @@ export default function Home() {
       {/* <!-- End Hero -->
 
    <!-- Waitlist --> */}
-      <div className="w-full bg-black">
+      <div
+        className="w-full bg-black waitlist"
+        style={{ fontFamily: "akatab" }}
+      >
         <div className="w-[90%] text-white py-[107px] md:py-[200px] lg:py-[336px]">
-          <p className="mx-auto md:text-center max-w-[927px] px-[20px] text-[40px] leading-[51.9px] Waitlist">
+          <p className="mx-auto md:text-center max-w-[927px] px-[20px] text-[40px] leading-[51.9px] waitlist">
             We&apos;re building something revolutionary at the intersection of
             Social Responsibility, Finance, Entertainment and AI
           </p>
@@ -56,7 +60,7 @@ export default function Home() {
       {/* <!-- End waitlist -->
 
    <!-- Footer --> */}
-      <div className="bg-[#000000]">
+      <div className="bg-[#000000] footer">
         <div className="footer px-[118px] text-[12px]  mx-auto text-[#858585] flex gap-[100px] md:gap-[7rem] lg:gap-[15rem] ">
           <p className="leading-[12px] ">REENATO</p>
           <div className="flex justify-between md:gap-[40px] lg:gap-0 flex-col md:flex-row flex-1 ">
@@ -81,7 +85,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p className="font-normal text-[12px] leading-[16.9px] text-[#444343] w-fit mx-auto mt-[294px]">
+        <p className="font-normal text-[12px] leading-[16.9px] text-[#444343] w-fit mx-auto mt-[294px] copyright ">
           Copyright © 2024 REENATO - All Rights Reserved
         </p>
       </div>
