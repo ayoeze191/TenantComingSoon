@@ -20,7 +20,7 @@ export default function Home() {
           playsInline
           type="video/webm"
         ></video>
-        <div className="heroTitle text-[#FFFFFF] z-[999999999] text-center text-[85px] lg:text-[200px] xl:text-[278px]">
+        <div className="heroTitle px-[10px] text-[#FFFFFF] z-[999999999] text-center text-[50px] sm:text-[85px] lg:text-[200px] xl:text-[278px]">
           REENATO
         </div>
         <p className="text-center mt-[257px] text-[12px] leading-[14px] text-[#FFFFFF] leading-[14px]">
@@ -61,7 +61,7 @@ export default function Home() {
 
    <!-- Footer --> */}
       <div className="bg-[#000000] footer">
-        <div className="footer px-[118px] text-[12px]  mx-auto text-[#858585] flex gap-[100px] md:gap-[7rem] lg:gap-[15rem] ">
+        <div className="footer px-[35px] sm:px-[50px] md:px-[80px] lg:px-[95px] xl:px-[118px] text-[12px]  mx-auto text-[#858585] flex gap-[100px] md:gap-[7rem] lg:gap-[15rem] ">
           <p className="leading-[12px] ">REENATO</p>
           <div className="flex justify-between md:gap-[40px] lg:gap-0 flex-col md:flex-row flex-1 ">
             <div className="lg:w-[216px]">
