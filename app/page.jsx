@@ -1,16 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <div className="fixed w-full text-white z-10  font-Fira-Mono">
-        <div className="flex header text-[12px] flex-col md:flex-row font-[400] leading-[27px]  container  py-[40px] h-fit mx-auto  items-center justify-between ">
-          <p>TEN ANTS</p>
-          <p>A-CUBE</p>
-          <p>CREATIVE PATH</p>
-        </div>
-      </div>
-      {/* <!-- end header -->
-   <!-- Hero --> */}
-      <div className="relative h-screen flex justify-center flex-col items-center ">
+      <div className="relative">
         <video
           src="/ComingSoonBackgroundVideo.webm"
           className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
@@ -20,13 +11,24 @@ export default function Home() {
           playsInline
           type="video/webm"
         ></video>
-        <div className="heroTitle px-[10px] text-[#FFFFFF] z-[999999999] text-center text-[50px] sm:text-[85px] lg:text-[200px] xl:text-[278px]">
-          REENATO
+        <div className=" w-full text-white z-10  font-Fira-Mono">
+          <div className="flex header text-[12px] flex-col md:flex-row font-[400] leading-[27px]  container  py-[40px] h-fit mx-auto  items-center justify-between ">
+            <p>10ANTS</p>
+            <p>A-CUBE</p>
+            <p>CREATIVE PATH</p>
+          </div>
         </div>
-        <p className="text-center mt-[257px] text-[12px] leading-[14px] text-[#FFFFFF] leading-[14px]">
-          Empowering <br /> Businesses Through
-          <br /> Technology
-        </p>
+        {/* <!-- end header -->
+   <!-- Hero --> */}
+        <div className="relative h-screen flex justify-center flex-col items-center ">
+          <div className="heroTitle px-[10px] text-[#FFFFFF] z-[999999999] text-center text-[50px] sm:text-[85px] lg:text-[200px] xl:text-[278px]">
+            REENATO
+          </div>
+          <p className="text-center mt-[257px] text-[12px]  text-[#FFFFFF] leading-[14px]">
+            Empowering <br /> Businesses Through
+            <br /> Technology
+          </p>
+        </div>
       </div>
       {/* <!-- End Hero -->
 
@@ -62,8 +64,15 @@ export default function Home() {
    <!-- Footer --> */}
       <div className="bg-[#000000] footer">
         <div className="footer px-[35px] sm:px-[50px] md:px-[80px] lg:px-[95px] xl:px-[118px] text-[12px]  mx-auto text-[#858585] flex gap-[100px] md:gap-[7rem] lg:gap-[15rem] ">
-          <p className="leading-[12px] ">REENATO</p>
+          {/* <p className="leading-[12px] ">REENATO</p> */}
           <div className="flex justify-between md:gap-[40px] lg:gap-0 flex-col md:flex-row flex-1 ">
+            <div className="lg:w-[189px]">
+              <h2 className="footerTitle">TENANTS</h2>
+              <p className="mt-[31px]">
+                Creating social responsibility agents in Housing to enable you
+                do more!{" "}
+              </p>
+            </div>
             <div className="lg:w-[216px]">
               <h2 className="footerTitle">A-CUBE</h2>
               <p className="lg-[31px]">Your Pathway to Home Ownership</p>
@@ -74,13 +83,6 @@ export default function Home() {
                 Finding your clan irrespective of where you are originally from.
                 In the Creative Space or Music Scene or digital transformation
                 world
-              </p>
-            </div>
-            <div className="lg:w-[189px]">
-              <h2 className="footerTitle">TENANTS</h2>
-              <p className="mt-[31px]">
-                Creating social responsibility agents in Housing to enable you
-                do more!{" "}
               </p>
             </div>
           </div>
