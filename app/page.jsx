@@ -13,9 +13,9 @@ export default function Home() {
         ></video>
         <div className=" w-full text-white z-10  font-Fira-Mono">
           <div className="flex header text-[12px] flex-col md:flex-row font-[400] leading-[27px]  container  py-[40px] h-fit mx-auto  items-center justify-between ">
-            <p>10ANTS</p>
-            <p>A-CUBE</p>
-            <p>CREATIVE PATH</p>
+            <a href="#go">10ANTS</a>
+            <a href="#go">A-CUBE</a>
+            <a href="#go">CREATIVE PATH</a>
           </div>
         </div>
         {/* <!-- end header -->
@@ -62,12 +62,12 @@ export default function Home() {
       {/* <!-- End waitlist -->
 
    <!-- Footer --> */}
-      <div className="bg-[#000000] footer">
+      <div className="bg-[#000000] footer" id="go">
         <div className="footer px-[35px] sm:px-[50px] md:px-[80px] lg:px-[95px] xl:px-[118px] text-[12px]  mx-auto text-[#858585] flex gap-[100px] md:gap-[7rem] lg:gap-[15rem] ">
           {/* <p className="leading-[12px] ">REENATO</p> */}
           <div className="flex justify-between md:gap-[40px] lg:gap-0 flex-col md:flex-row flex-1 ">
             <div className="lg:w-[189px]">
-              <h2 className="footerTitle">TENANTS</h2>
+              <h2 className="footerTitle">10NANTS</h2>
               <p className="mt-[31px]">
                 Creating social responsibility agents in Housing to enable you
                 do more!{" "}
