@@ -51,8 +51,8 @@ export default function Waitlist() {
       />
       <button
         type="submit"
-        disabled={loading}
-        className="bg-gray-900 text-white flex items-center justify-center px-8 h-11 rounded-lg text-sm font-bold w-full md:w-fit whitespace-nowrap disabled:cursor-not-allowed disabled:opacity-50"
+        disabled={loading || success}
+        className="bg-gray-300 text-black flex items-center justify-center px-8 h-11 rounded-lg text-sm font-bold w-full md:w-fit whitespace-nowrap disabled:cursor-not-allowed disabled:opacity-50"
       >
         {loading ? "Submitting..." : success ? "Joined!" : "Join the Waitlist"}
       </button>
