@@ -1,8 +1,10 @@
 import Waitlist from "./components/Waitlist";
+import { Toaster } from "sonner";
 
 export default function Home() {
   return (
     <div>
+      <Toaster richColors />
       <div className="relative">
         <video
           src="/ComingSoonBackgroundVideo.webm"

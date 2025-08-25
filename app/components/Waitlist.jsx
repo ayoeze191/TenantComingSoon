@@ -1,4 +1,5 @@
 "use client";
+import { toast } from "sonner";
 
 import { useState } from "react";
 
@@ -25,6 +26,7 @@ export default function Waitlist() {
 
       if (res.ok) {
         setSuccess(true);
+        toast.success("You have just joined the waitlist");
       } else {
         console.error("HubSpot submission failed", await res.json());
       }
