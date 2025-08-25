@@ -1,3 +1,5 @@
+import Waitlist from "./components/Waitlist";
+
 export default function Home() {
   return (
     <div>
@@ -46,17 +48,7 @@ export default function Home() {
             Sign up now for exclusive early access and be the first to
             experience the future when we launch
           </p>
-
-          <div className="mx-auto  w-full mt-[4.18rem] flex items-center gap-[1.125rem] max-w-[600px]  px-[20px] flex-col md:flex-row">
-            <input
-              placeholder="Email Address"
-              type="email"
-              className="border-[#FFFFFF] w-full h-[43px]  bg-inherit border-[1px] rounded-[10px] px-[18px] py-[10px]"
-            />
-            <button className="bg-gray-300 text-black flex items-center justify-center px-8 h-11 rounded-lg text-sm font-bold w-full md:w-fit whitespace-nowrap">
-              Join the Waitlist
-            </button>
-          </div>
+          <Waitlist />
         </div>
       </div>
       {/* <!-- End waitlist -->
